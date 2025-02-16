@@ -8,16 +8,26 @@ body {
 }
 
 header {
-    background-color: #fff;
-    padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 h1 {
-    margin: 0;
     font-size: 3em;
-    color: #333;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #555;
 }
 
 main {
@@ -28,79 +38,28 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-article {
-    margin-bottom: 30px;
+.index h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
-h2 {
-    font-size: 2em;
-    color: #333;
-}
-
-p.date {
-    font-size: 0.9em;
-    color: #777;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border-top: 1px solid #ddd;
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    main {
-        margin: 20px;
-    }
-}
-/* Impostazioni generali */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
+.index ul {
+    list-style: none;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
 }
 
-header {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
+.index li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
-h1 {
-    margin: 0;
-    font-size: 3em;
-    color: #333;
+.index a {
+    text-decoration: none;
+    color: #007bff;
 }
 
-main {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-article {
-    margin-bottom: 30px;
-}
-
-h2 {
-    font-size: 2em;
-    color: #333;
-}
-
-p.date {
-    font-size: 0.9em;
-    color: #777;
+.index a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -108,15 +67,4 @@ footer {
     padding: 20px;
     background-color: #fff;
     border-top: 1px solid #ddd;
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    main {
-        margin: 20px;
-    }
 }

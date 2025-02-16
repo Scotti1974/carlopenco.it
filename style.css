@@ -1,8 +1,9 @@
+/* Impostazioni generali */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -10,17 +11,18 @@ header {
     background-color: #fff;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
 }
 
 h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 3em;
+    color: #333;
 }
 
 main {
     max-width: 800px;
-    margin: 30px auto;
+    margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -31,7 +33,7 @@ article {
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     color: #333;
 }
 
@@ -42,6 +44,18 @@ p.date {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #fff;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ddd;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        margin: 20px;
+    }
+}

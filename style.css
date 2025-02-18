@@ -17,7 +17,7 @@ header {
     height: auto;         /* Mantieni le proporzioni */
     display: block;       /* Per centrarla */
     margin: 0 auto;       /* Centra l'immagine */
-    border-radius: 50%;   /* Forma circolare o ellittica */
+    border-radius: 60% 60%).   /* Forma circolare o ellittica */
     object-fit: cover;    /* Adatta l'immagine mantenendo le proporzioni */
 }
 

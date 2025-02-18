@@ -12,14 +12,15 @@ header {
     padding: 20px;
 }
 
-.profile-photo {
+profile-photo {
     max-width: 20%;
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 60% 90%;  
+    border-radius: 60% 80%;
     object-fit: cover;
-    transform: rotate(0deg);  
+    transform: rotate(0deg); /* Rotazione forzata a 0 gradi */
+    transform-origin: center; /* Assicura che la rotazione, se presente, sia centrata */
 }
 }
 

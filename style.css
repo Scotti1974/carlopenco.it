@@ -12,15 +12,15 @@ header {
     padding: 20px;
 }
 
-profile-photo {
-    max-width: 20%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 60% 80%;
-    object-fit: cover;
-    transform: rotate(0deg); /* Rotazione forzata a 0 gradi */
-    transform-origin: center; /* Assicura che la rotazione, se presente, sia centrata */
+.profile-photo {
+    max-width: 20%;       /* Mantieni la larghezza desiderata */
+    height: auto;         /* Mantieni le proporzioni */
+    display: block;       /* Per centrarla */
+    margin: 0 auto;       /* Centra l'immagine */
+    border-radius: 60% 80%;  /* Forma ellittica */
+    object-fit: cover;    /* Adatta l'immagine mantenendo le proporzioni */
+    transform: none;      /* Rimuove qualsiasi rotazione preesistente */
+    transform-origin: center;  /* Assicura che la rotazione avvenga dal centro */
 }
 }
 

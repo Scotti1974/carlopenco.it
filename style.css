@@ -17,9 +17,9 @@ header {
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 60% 80%;  /* Forma ellittica */
+    border-radius: 60% 80%;  
     object-fit: cover;
-    transform: rotate(0deg);  /* Assicura che l'immagine non sia inclinata */
+    transform: rotate(0deg);  
 }
 }
 

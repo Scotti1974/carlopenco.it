@@ -13,10 +13,12 @@ header {
 }
 
 .profile-photo {
-    max-width: 20%;      /* Prova con un valore ancora più basso */
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    max-width: 20%;       /* Mantieni la larghezza desiderata */
+    height: auto;         /* Mantieni le proporzioni */
+    display: block;       /* Per centrarla */
+    margin: 0 auto;       /* Centra l'immagine */
+    border-radius: 50%;   /* Forma circolare o ellittica */
+    object-fit: cover;    /* Adatta l'immagine mantenendo le proporzioni */
 }
 
 }

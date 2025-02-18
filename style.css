@@ -13,7 +13,7 @@ header {
 }
 
 .profile-photo {
-    max-width: 10%;      /* Prova con un valore ancora più basso */
+    max-width: 20%;      /* Prova con un valore ancora più basso */
     height: auto;
     display: block;
     margin: 0 auto;

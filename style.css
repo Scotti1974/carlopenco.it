@@ -13,7 +13,7 @@ header {
 }
 
 .profile-photo {
-    max-width: 100%;      /* Fa sì che l'immagine non superi la larghezza della pagina */
+    max-width: 20%;      /* Fa sì che l'immagine non superi la larghezza della pagina */
     height: auto;         /* Mantiene le proporzioni dell'immagine */
     display: block;       /* Rende l'immagine un elemento block per poterla centrare */
     margin: 0 auto; 

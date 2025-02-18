@@ -13,10 +13,10 @@ header {
 }
 
 .profile-photo {
-    max-width: 10%;      /* Fa sì che l'immagine non superi la larghezza della pagina */
-    height: auto;         /* Mantiene le proporzioni dell'immagine */
-    display: block;       /* Rende l'immagine un elemento block per poterla centrare */
-    margin: 0 auto;       /* Centra l'immagine orizzontalmente */
+    max-width: 5%;      /* Prova con un valore ancora più basso */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 }

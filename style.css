@@ -17,7 +17,7 @@ header {
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 60% 80%;  
+    border-radius: 60% 90%;  
     object-fit: cover;
     transform: rotate(0deg);  
 }
